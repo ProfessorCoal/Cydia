@@ -1,0 +1,171 @@
+
+Archive or make copies of the information you store in iCloud
+Learn how to make copies of the information that you use with iCloud.
+
+You might want to make a copy of the information you keep in iCloud. If you accidentally delete an important contact, email, or document, you can choose to restore it from iCloud or from another copy that you have.
+iCloud Drive
+iCloud Photos
+Mail
+Contacts
+Calendars
+Reminders
+Safari
+Notes
+iTunes Store purchases
+ 
+iCloud Drive files
+
+Use the steps below to copy documents from your Mac, iPhone, iPad, iPod touch, iCloud.com, or Windows PC.
+Copy files on your Mac
+Open the app that you used to create the document, then choose File > Open.
+Click iCloud in the top-left corner of the Open dialog.
+Open the document you want to copy, then hold down the Option key and choose File > Save As.
+Choose where you want to save the document, then click Save.
+In OS X Mountain Lion or later, you can open Preview and TextEdit files stored in iCloud from the iCloud list in the Open dialog. Make sure that you upgrade to iCloud Drive so that they're available everywhere, even iCloud.com.
+If you upgraded to iCloud Drive and you're using OS X Yosemite, you can copy your files from the iCloud Drive folder in Finder. If you created a document with a third-party app and you don't see it in Finder, contact the app developer to learn how to copy that app's data.
+Copy files from the Files app on your iPhone, iPad, or iPod touch
+If you have iOS 11 or later, use these steps to send copies of files stored in iCloud Drive.
+Open the Files app on your iPhone, iPad, or iPod touch.
+Touch the file to open it.
+Tap  in the lower left corner.
+Choose the way you want to send a copy of the file.
+If you have iOS 9 or iOS 10, follow the same steps in the iCloud Drive app instead.
+Copy files from iCloud.com
+If you upgraded to iCloud Drive, use these steps to download files stored in iCloud Drive or iWork for iCloud:
+Sign in to iCloud.com on a Mac or PC.
+Open the iCloud Drive app.
+Find and select the file.
+Click  or choose Download Document from the Action  menu. The document downloads to your default downloads location.
+If you haven’t upgraded your account to use iCloud Drive, you can't see your files in the iCloud Drive app at iCloud.com.
+Copy files from Windows
+If you upgraded to iCloud Drive and enabled iCloud Drive using iCloud for Windows on a PC using Windows 7 or later, you can copy your files from the iCloud Drive folder in File Explorer. You can also copy your files from iCloud.com.
+
+Photos and videos
+
+You might already have a copy of your library in iCloud Photo Library, or the last 30 days of photos in My Photo Stream
+If you enabled iCloud Photo Library, your photos and videos are automatically uploaded to iCloud at full resolution. You can make copies of your photos and videos when you follow these steps:
+On your iPhone, iPad, or iPod touch with iOS 10.3 or later, tap Settings > [your name] > iCloud > Photos. If you’re using iOS 10.2 or earlier, tap Settings > iCloud > Photos. Then select Download and Keep Originals and import the photos to your computer. 
+On your Mac with OS X Yosemite 10.10.3 or later, open the Photos app. Choose Photos > File > Export.
+On your PC, set up iCloud for Windows and turn on iCloud Photo Library.
+If you want to download a few photos or videos, you can use iCloud.com to download the most recent version of photos and videos to your computer. Just go to iCloud.com and open the Photos app. Then select the photos and videos you want to download and click .
+My Photo Stream photos are automatically imported to your Photos library, unless My Photo Stream and Automatic Import are turned off in the app's preferences. If you enabled iCloud Photo Library, you can find your photos in the All Photos folder instead of My Photo Stream. 
+You can also use the steps below to manually copy your photos and videos. Any comments or likes connected to a shared photo aren't saved, and photos and videos saved from shared albums aren't full resolution.
+Copy photos from iCloud Photo Sharing on your iPhone, iPad, or iPod touch
+On your iPhone, iPad, or iPod touch with iOS 8 or later:
+Open Photos, tap Shared > Sharing, then tap the name of the shared album.
+Save photos using one of these methods:
+Tap an image to open it, then tap . To select more images, scroll the images left or right and tap the ones you want to save. Tap Save Image.
+Tap Select, then tap the images you want to save. Tap , then tap Save Image.
+Import the photos to your computer.
+Copy photos and videos from iCloud Photo Sharing on your Mac
+Follow these steps to manually import photos and videos in shared streams to your Photos Library: 
+Open Photos and select the Shared tab.
+Double-click a shared stream.
+Right-click (or Control-click) a photo and choose Import.
+After you import your photos, you might want to back up your library. You can store them as a separate library on your computer or on a different drive.
+Copy content from My Photo Stream and iCloud Photo Sharing in Windows
+All photos in My Photo Stream are automatically saved to your PC, and saved photos are available even if you turn off Photos in iCloud for Windows. To save photos and videos from a shared stream, you must save them to another folder on your hard drive:
+Open iCloud for Windows.
+Click the Options button next to Photos (or Photo Stream). Note the path listed under iCloud Photos location.
+Open a File Explorer window (Windows 8) or Windows Explorer window (Windows 7).
+Go to the iCloud Photos folder using the above path. Open the Shared folder.
+Select the photos you want to save, then copy them to another folder on your computer. Include this folder if you back up your computer.
+For information on backing up your Windows computer, see Microsoft Support.
+
+Mail
+
+Use these steps to move, delete, or copy iCloud email on your Mac.
+
+Contacts
+
+Use the steps below to export contacts from your Mac, iCloud.com, or Outlook 2007 through Outlook 2016.
+Export contacts on your Mac
+Open Contacts.
+Choose View > Show Groups.
+Select All Contacts in the Groups list.
+Click a contact in the Contacts list.
+Choose Edit > Select All to select all cards for export.
+Choose File > Export > Export vCard.
+Choose where you want to save the file, then click Save.
+If you use Groups, you should consider archiving your entire Contacts or Address Book database as well as exporting vCards. The vCard method above copies your contacts, but not your Groups. Archives are more complex, but you might not be able to restore data using Archives while connected to the Internet and signed in to iCloud.
+To export an archive in OS X Mountain Lion or later, open Contacts and choose File > Export > Contacts Archive.
+Export contacts from iCloud.com
+Export iCloud contact information as a vCard.
+Export contacts in Outlook 2007 through Outlook 2016
+See Microsoft's instructions for exporting contacts.
+
+Calendars
+
+Use the steps below to export calendars from your Mac, iCloud.com, or Outlook 2007 through Outlook 2016.
+Export a calendar on your Mac
+In Calendar, click the calendar’s name. If you don’t see your calendars, click Calendars.
+Choose File > Export > Export.
+Choose a location for the file, and then click Export.
+Download a calendar from iCloud.com
+Sign in to iCloud.com with your Apple ID and open Calendar.
+Publicly share the calendar.
+Copy the URL of the shared calendar and paste it into the address field in your browser. Don't press Enter or Return.
+Change "webcal" to "http" and press Enter or Return. An ICS file downloads to your default download location.
+Add the calendar to a calendar client, such as Calendar on Mac or Outlook on a Windows computer.
+Stop sharing the calendar.
+Export a calendar in Outlook 2007 through Outlook 2016
+Open Outlook and go to your Calendar.
+Select the calendar you want to copy in the Calendar list.
+Deselect all other calendars.
+In Outlook 2010 or later, choose File > Save Calendar. In earlier versions of Outlook, choose File > Save As.
+Click More Options to adjust the date range and amount of detail to include in the calendar. This varies depending on your version of Outlook.
+Click OK.
+Choose where you want to save the calendar, then click Save.
+Repeat with each calendar you want to copy.
+
+Reminders
+
+Export a copy of your Reminders on your Mac:
+Open Reminders.
+Go to the reminder list that you want to export.
+Choose File > Export.
+Enter a name, choose a location, and then click Export.
+
+Safari
+
+Export a copy of your Safari bookmarks on your Mac:
+Choose File > Export Bookmarks.
+Choose where you want to export the file, then click Save. The file’s name is Safari Bookmarks.html unless you change it.
+To export a copy of your Mozilla Firefox, Google Chrome, or Microsoft Internet Explorer bookmarks, see the Mozilla, Google, or Microsoft steps for exporting bookmarks.
+
+Notes
+
+To copy notes, open the Notes app on your Mac or at iCloud.com. Copy the text of each note and paste it into a document on your computer, such as a Pages or TextEdit document. Save the document to your computer.
+To export your notes as PDF:
+Open the Notes app.
+Select the note that you want to export.
+Click File > Export as PDF and choose a location.
+
+iTunes Store purchases
+
+With iTunes, you can access past music, movies, and TV show purchases from any of your devices. To make a complete backup, you might want to copy your iTunes data. Learn how to back up your iTunes library by copying it to an external hard drive.
+
+Remember to back up
+
+iCloud backs up your iPhone, iPad, and iPod touch automatically each night when it's connected to a power source and Wi-Fi, and your device's screen is locked. If you choose to keep another copy, you can back up to your computer. You should also regularly back up your iOS devices. If you have a backup, you can restore your data if your computer or iOS device is damaged or lost.
+Information about products not manufactured by Apple, or independent websites not controlled or tested by Apple, is provided without recommendation or endorsement. Apple assumes no responsibility with regard to the selection, performance, or use of third-party websites or products. Apple makes no representations regarding third-party website accuracy or reliability. Risks are inherent in the use of the Internet. Contact the vendor for additional information. Other company and product names may be trademarks of their respective owners.
+Published Date: Jan 8, 2018
+Helpful?Yes No
+Start a Discussion
+in Apple Support Communities
+Ask other users about this article
+
+See all questions on this article
+See all questions I have asked
+Contact Apple Support
+
+Need more help? Save time by starting your support request online and we'll connect you to an expert.
+Get started
+Apple Footer
+
+Apple
+SupportArchive or make copies of the information you store in iCloud
+More ways to shop: Visit an Apple Store, call 1-800-MY-APPLE, or find a reseller.
+Copyright © 2018 Apple Inc. All rights reserved.
+Privacy Policy Terms of Use Sales and Refunds Site Map Contact Apple
+United States (English)
