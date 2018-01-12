@@ -1,0 +1,6 @@
+
+Working Copy makes it easy to clone from a link or a website in Safari. From the share sheet you pick Open in Working Copy to quickly clone the repository in the app.
+
+If the repository is already available in Working Copy, it is shown without cloning it, and if the link was for a particular file, commit or branch this will be opened inside the app.
+
+You enable this action before first use, by scrolling to the right of the bottom greyscale row of icons and tapping More.
