@@ -1,0 +1,30 @@
+<html><head><title>Activator</title><link rel="stylesheet" type="text/css" href="/cydia/ios.css"/><meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/></head><body class="pinstripe modern"><panel><div class="header" style="color:black"><img src="icon.png" width="59" height="60"/><div><h1>Activator</h1><h2>by Ryan Petrich</h2></div></div><fieldset style="clear:both">
+	<div>
+		<p>Centralized gestures, button and shortcut management for iOS</p>
+	</div>
+</fieldset>
+
+
+<fieldset>
+	<!--a href="donate/">
+		<img class="icon" src="http://cache.saurik.com/crystal/64x64/apps/kwallet.png"/><div>
+		<label>Donate</label>
+	</div></a-->
+	<a href="actions/">
+		<img class="icon" src="http://cache.saurik.com/crystal/64x64/apps/keditbookmarks.png"/><div>
+		<label>Get More Actions</label>
+	</div></a>
+       <a href="changelog.html">
+       <img class="icon" src="http://cache.saurik.com/crystal/32x32/apps/clock.png"/><div>
+           <label>Recent Changes/Updates</label>
+       </div></a>
+	<a href="/cydia/twitter/">
+		<img class="icon" src="/twitter.png"/><div>
+		<label>Find rpetrich on Twitter</label>
+	</div></a>
+       <a href="http://apt.thebigboss.org/getfilehistory2.php?file=Activator">
+       <img class="icon" src="http://moreinfo.thebigboss.org/moreinfo/images/icon-Stats.png"/><div>
+           <label>Download Statistics</label>
+       </div></a>
+</fieldset>
+</panel><script type="text/javascript">var _gaq=[["_setAccount","UA-8302864-3"],["_trackPageview"]];(function(){var ga=document.createElement("script");ga.type="text/javascript";ga.async = true;ga.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga,s);})();</script>
