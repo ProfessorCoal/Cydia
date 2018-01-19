@@ -1,0 +1,734 @@
+<html><head><title>Changelog</title>
+	<link rel="stylesheet" type="text/css" href="/cydia/menes.css"/>
+	<link rel="stylesheet" type="text/css" href="/cydia/style.css"/>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+
+</head><body class="pinstripe modern">
+<panel>
+
+	<label>New in 1.9.12 (February 14, 2017)</label>
+	<fieldset>
+		<div><label>Fix missing/broken actions on iOS 8.0–8.4</label></div>
+		<div><label>Fix safe mode crash on iOS 10.0–10.0.2</label></div>
+		<div><label>Support connect/disconnect events for BTLE on iOS 10</label></div>
+		<div><label>Use iOS 10 style banners on iOS 10</label></div>
+		<div><label>Fix Activator app failing to load on iPad Pro 12.9"</label></div>
+		<div><label>Fix application shortcut actions on iOS 10</label></div>
+		<div><label>Fix Ask Siri custom actions on iOS 10</label></div>
+		<div><label>Fix bypass passcode option on iOS 10</label></div>
+		<div><label>Fix lock screen clock events on iOS 10</label></div>
+		<div><label>Fix shortcut items on iOS 10</label></div>
+	</fieldset>
+
+	<label>New in 1.9.11 (February 5, 2017)</label>
+	<fieldset>
+		<div><label>Support iOS 10</label></div>
+		<div><label>Show icons for assigned listeners in the event selection list on larger devices</label></div>
+		<div><label>Save expansion status of listener groups</label></div>
+		<div><label>Add Bedtime action on iOS 10</label></div>
+		<div><label>Add double press and hold Touch ID event</label></div>
+		<div><label>Properly respring when importing preferences on iOS 9.2+</label></div>
+		<div><label>Show the Apple logo when respringing</label></div>
+		<div><label>Suppress Touch ID events while showing an auth alert in Touch ID-enabled apps</label></div>
+		<div><label>Add long hold Touch ID event</label></div>
+		<div><label>Adjust short hold Touch ID event behaviour</label></div>
+		<div><label>Adjust timing of single press Touch ID event</label></div>
+		<div><label>Ignore Touch ID events for the first quarter second after unlocking</label></div>
+		<div><label>Automatically fix corrupt permissions on /Library/Activator</label></div>
+		<div><label>Allow dispatching home button action while touches are active on iOS 9+</label></div>
+		<div><label>Disable hooks in Cydia to prevent repo install conflicts</label></div>
+		<div><label>Add third-party and more default settings pane actions</label></div>
+		<div><label>Add support for car connection events (when a CarPlay-compatible automobile accessory is encountered)</label></div>
+		<div><label>Fix some search bar related bugs on iOS 9 (thanks /u/tateu)</label></div>
+		<div><label>Treat camera/calculator apps open at the lock screen as still being at the lock screen</label></div>
+		<div><label>Fix phone actions on iOS 7</label></div>
+		<div><label>Fix respring when settings are reset</label></div>
+		<div><label>Update localizations</label></div>
+	</fieldset>
+
+	<label>1.9.10 (July 28, 2016)</label>
+	<fieldset>
+		<div><label>Full support for iOS 9.3</label></div>
+		<div><label>Adjust multiple assignment UI</label></div>
+	</fieldset>
+
+	<label>1.9.9 (July 26, 2016)</label>
+	<fieldset>
+		<div><label>Basic support for iOS 9.3</label></div>
+	</fieldset>
+
+	<label>1.9.8 (January 23, 2016)</label>
+	<fieldset>
+		<div><label>Add "Watch Tap" action</label></div>
+		<div><label>Add watch connectivity events</label></div>
+		<div><label>Add force touch screen left and screen right events</label></div>
+		<div><label>Add support for more system ringtones</label></div>
+		<div><label>Add "Current Track Changed" event</label></div>
+		<div><label>Add "Compose Note" action</label></div>
+		<div><label>Add "Local Back" action</label></div>
+		<div><label>Add "Battery" settings action</label></div>
+		<div><label>Add clear switcher action on iOS 9</label></div>
+		<div><label>Add "Answer Call" and "Disconnect Call" actions</label></div>
+		<div><label>Add actions for specific pages of the Clock app</label></div>
+		<div><label>Add increase and decrease brightness actions</label></div>
+		<div><label>Add ability to specify sequence of assigned actions and to add delays between actions</label></div>
+		<div><label>Add searching support to the event list</label></div>
+		<div><label>New search implementation for iOS 8 and 9</label></div>
+		<div><label>Make mail/message/phone actions show assigned contact photo</label></div>
+		<div><label>Have multi-touch events cancel touch events by default on iOS 9 (and allow customization of this behaviour)</label></div>
+		<div><label>Use (unknown) as the action title for contact actions for which the contact has no name</label></div>
+		<div><label>Use the more colourful system icons for many actions when running on iOS 9</label></div>
+		<div><label>Adjust single press Touch ID event to wait for a second touch before dispatching</label></div>
+		<div><label>Override Do Not Disturb when showing banners</label></div>
+		<div><label>Allow setting "require unlock to activate" on a per-app basis</label></div>
+		<div><label>Use proper mute behaviour when volume button is held on iPad</label></div>
+		<div><label>Adjust info button style on action list</label></div>
+		<div><label>Delay notification and control centers while a swipe in event with an action assignment is pending</label></div>
+		<div><label>Adjust behaviour of slide-in from bottom gestures with respect to the notification center</label></div>
+		<div><label>Fix notification center coming down when using slide gestures on the lock screen</label></div>
+		<div><label>Fix the back action in Facebook, among other apps</label></div>
+		<div><label>Fix Usage settings action on iOS 9</label></div>
+		<div><label>Fix Facebook icon on iOS 6</label></div>
+		<div><label>Present action settings panes correctly when launched from the Settings app on iOS 6</label></div>
+		<div><label>Fix eventsAssignedToListenerWithName: API to support compound assignments</label></div>
+		<div><label>Back out any icon force touch gestures when an Activator force touch gesture is handled</label></div>
+		<div><label>Load event metadata only on first use</label></div>
+		<div><label>Avoid loading actions until they're first requested</label></div>
+		<div><label>Reduce code size and memory use at startup</label></div>
+		<div><label>Reduce IPC overhead in settings pane</label></div>
+		<div><label>Remove unused API support for large action icons</label></div>
+		<div><label>Update localizations (thanks translators 😊)</label></div>
+	</fieldset>
+
+	<label>1.9.7 (November 29, 2015)</label>
+	<fieldset>
+		<div><label>Add taptic engine actions</label></div>
+		<div><label>Add force touch events</label></div>
+		<div><label>Make vibration actions previewable</label></div>
+		<div><label>Allow home button action to be dispatched properly from inside a menu</label></div>
+		<div><label>Allow now playing app action to be used from the lock screen if apps are enabled at the lock screen</label></div>
+		<div><label>Use app icon for the now playing action</label></div>
+		<div><label>Allow listeners to set previews=1 in their Info.plist to automatically support previewing</label></div>
+		<div><label>Support call listeners for contacts that have phone numbers with weird non-breaking space characters</label></div>
+		<div><label>Mute the currently playing ringtone when the volume down button is pressed</label></div>
+		<div><label>Support iPad's new iOS 9 multitasking modes</label></div>
+		<div><label>Fix a number of "settings" actions to now work on iOS 9</label></div>
+		<div><label>Fix contact picking on iOS 9</label></div>
+		<div><label>Fix Activator icon in Spotlight on iOS 9</label></div>
+		<div><label>Show breadcrumbs when launching apps on iOS 9</label></div>
+		<div><label>Fix icon flick events on iOS 9</label></div>
+		<div><label>Fix some remaining slide gestures on iOS 9</label></div>
+		<div><label>Fix status bar hold events on devices with 3d touch</label></div>
+		<div><label>Make statusbar swipe gestures dispatch actions immediately</label></div>
+		<div><label>Remove unnecessary armv7s slice</label></div>
+		<div><label>Improve settings pane performance</label></div>
+		<div><label>Further adjust Spotlight action on iOS 9</label></div>
+		<div><label>Fix battery events on iOS 9</label></div>
+		<div><label>Fix Locked/Unlocked events on iOS 9</label></div>
+		<div><label>Allow for slight movements on status bar hold events</label></div>
+		<div><label>Properly support device orientation for all multitouch events on iOS 9</label></div>
+		<div><label>Suppress switcher when the double press menu button event is handled on iOS 9</label></div>
+		<div><label>Fix crash when an action is assigned to the three finger tap event on iOS 9</label></div>
+		<div><label>Allow deferred actions such as home button press to be sent immediately in multitouch events</label></div>
+		<div><label>Adjust playback rate of speech synthesis actions on iOS 9</label></div>
+		<div><label>Relocate all files out of /System (for angelXwind)</label></div>
+		<div><label>Optimize memory use after Activator app is opened</label></div>
+		<div><label>Workaround launch image quirks on iOS 9</label></div>
+		<div><label>Update localizations</label></div>
+	</fieldset>
+
+	<label>1.9.6 (October 18, 2015)</label>
+	<fieldset>
+		<div><label>Basic Support for iOS 9</label></div>
+		<div><label>Add support for shortcut actions on iOS 9</label></div>
+		<div><label>Add custom 3D Touch icon events on compatible 3D Touch devices</label></div>
+		<div><label>Support multi-touch events on iOS 9</label></div>
+		<div><label>Fix case open/close events being swapped on iOS 8+</label></div>
+		<div><label>Fix black statusbar as app is launching on iOS 8+</label></div>
+		<div><label>Add system power down view action</label></div>
+		<div><label>Adjust naming of custom actions/events to "Build"</label></div>
+		<div><label>Add launch playing app action</label></div>
+		<div><label>Only remedy corrupt Today/Tomorrow notification settings upon install</label></div>
+		<div><label>Update Localizations</label></div>
+	</fieldset>
+
+	<label>1.9.5 (July 5, 2015)</label>
+	<fieldset>
+		<div><label>Create new profiles as copies of the current profile</label></div>
+		<div><label>Fix crash when creating new profile</label></div>
+	</fieldset>
+
+	<label>1.9.4 (July 4, 2015)</label>
+	<fieldset>
+		<div><label>Support iOS 8.4</label></div>
+		<div><label>Protect access to Activator APIs with a prompt dialog</label></div>
+		<div><label>Fix Action Banners on iOS 8.2+</label></div>
+		<div><label>Add ability to display alert actions as a banner</label></div>
+		<div><label>Allow modifying menus right from the action section page</label></div>
+		<div><label>Show icons in menus on iOS 8.4</label></div>
+		<div><label>Add preview option to menu customization</label></div>
+		<div><label>Fix profile actions no longer working since 1.9.3</label></div>
+		<div><label>🇺🇸 Happy Independence Day! 🇺🇸</label></div>
+	</fieldset>
+
+	<label>1.9.3 (June 26, 2015)</label>
+	<fieldset>
+		<div><label>Basic support for iOS 8.3</label></div>
+		<div><label>Add option to suppress passcode when activating an app at the lock screen</label></div>
+		<div><label>Better support Activator actions written using ARC</label></div>
+		<div><label>Fix unlock to dispatch event behaviour on iOS 8</label></div>
+		<div><label>Make camera shutter action take take photo after the camera app opens, if it needs to be opened</label></div>
+		<div><label>Add custom command actions</label></div>
+		<div><label>Fix VPN settings action on iOS 8</label></div>
+		<div><label>Make the fingerprint sensor hold put the Touch ID sensor into matching mode when assigned</label></div>
+		<div><label>Treat entering deep device sleep as leaving the Wi-Fi network (even if the WLAN interface hasn't left the building yet)</label></div>
+		<div><label>Update localizations</label></div>
+		<div><label>Add system-wide back button action</label></div>
+		<div><label>Support activating actions via URLs (activator://send/...)</label></div>
+		<div><label>Re-enable message events</label></div>
+		<div><label>Allow unassigning more things via swipe to delete gestures</label></div>
+		<div><label>Adjust Touch ID events on iOS 8 to use matching mode less often</label></div>
+		<div><label>Fix dictation action on iOS 8</label></div>
+		<div><label>Fix rare crash in file providers</label></div>
+		<div><label>Improve launch time of message composer actions</label></div>
+		<div><label>Fix custom Siri actions on iOS 8</label></div>
+	</fieldset>
+
+
+	<label>1.9.2: January 1, 2015</label>
+	<fieldset>
+		<div><label>Fix Cellular Settings action on iOS 8</label></div>
+		<div><label>Fix small resource leak in Settings/Activator app</label></div>
+		<div><label>Suppress message events on iOS 8 (until I have a chance to rewrite them)</label></div>
+	<!--</fieldset>
+
+	<label>1.9.2 RC1: December 31, 2014</label>
+	<fieldset>-->
+		<div><label>Restore previous home button hold behaviour</label></div>
+		<div><label>Fix Siri requiring two home button presses to exit when triggered via Activator</label></div>
+		<div><label>Fix Speech synthesis on iOS 8</label></div>
+		<!--div><label>Adjust reboot behaviour</label></div-->
+		<div><label>Add vibrate action</label></div>
+		<div><label>Force BioProtect to load at startup to opt out of its special hooking of Activator</label></div>
+		<div><label>Add fingerprint press and slide in event</label></div>
+		<!--div><label>Updated localizations</label></div>
+	</fieldset>
+
+	<label>1.9.2 beta 2: December 29, 2014</label>
+	<fieldset>-->
+		<div><label>Add new volume and sleep button simultaneous events</label></div>
+		<div><label>Add ability to set ringer/media volume specifically as a custom action</label></div>
+		<div><label>Fix camera listener crashing on lock screen for iOS 8</label></div>
+		<div><label>Fix settings app actions crashing on iOS 8</label></div>
+		<div><label>Fix safe mode alerts not working on first boot</label></div>
+		<div><label>Adjust spotlight action on iOS 8</label></div>
+		<!--div><label>Updated localizations</label></div>
+	</fieldset>
+
+	<label>1.9.2 beta 1: December 24, 2014</label>
+	<fieldset>-->
+		<div><label>No longer force—enable Touch ID recognition unless Activator's Touch ID events are used</label></div>
+		<div><label>Support ringtone actions on iOS 8</label></div>
+		<div><label>Mute ringtone actions when volume buttons are pressed</label></div>
+		<div><label>Fix Wi-Fi events on iOS 8</label></div>
+		<div><label>Fix potential deadlock on iOS 8 during boot</label></div>
+		<div><label>Updated localizations</label></div>
+	</fieldset>
+
+	<label>1.9.1: October 28, 2014</label>
+	<fieldset>
+		<div><label>Basic Support for iOS 8</label></div>
+		<div><label>Add support for hold and double press Touch ID events</label></div>
+		<div><label>Add support for muted and unmuted ringer events</label></div>
+	</fieldset>
+
+	<label>1.9.0: July 28, 2014</label>
+	<fieldset>
+		<div><label>New modern icon styling for home screen, actions and built-in icons for many actions</label></div>
+		<div><label>Many new developer APIs</label></div>
+		<div><label>Add custom alert listeners</label></div>
+		<div><label>Add "Ask Siri" custom actions</label></div>
+		<div><label>Better UI for multiple assignments</label></div>
+		<div><label>Add lock screen clock swipe down event</label></div>
+		<div><label>Add network-specific leave Wi-Fi events</label></div>
+		<div><label>Add "message" custom action type</label></div>
+		<div><label>Add screen brightness custom action type</label></div>
+		<div><label>Add Speech Synthesis feature</label></div>
+		<div><label>Support battery charge state events</label></div>
+		<div><label>Add profiles feature</label></div>
+		<div><label>Add custom volume level actions</label></div>
+		<div><label>Add ability to customize Flipswitch switch settings</label></div>
+		<div><label>Add Bluetooth connect/disconnect events</label></div>
+		<div><label>Add icon hold and double tap custom events</label></div>
+		<div><label>Add specific fingerprint match events</label></div>
+		<div><label>Allow automatic unlocking to send action on iOS 7</label></div>
+		<div><label>Adjust Activator app layout on iPad</label></div>
+		<div><label>Support touch gesture behaviour on 7.1</label></div>
+		<div><label>Fix lock screen status bar double tap event on iOS 7.x</label></div>
+		<div><label>Better error message when having trouble communicating with SpringBoard</label></div>
+		<div><label>Fix short/long hold home button events on 7.1</label></div>
+		<div><label>Fix double press home button event on 7.1</label></div>
+		<div><label>Fix icon rendering in the settings pane on iOS 7.1</label></div>
+		<div><label>Fix triple click home button event on iOS 7.1</label></div>
+		<div><label>Hide Tencent's migration service app on iOS 7.1</label></div>
+		<div><label>Fix iBlank-related crash</label></div>
+		<div><label>Fix Activator corruption message when error localization is missing</label></div>
+		<div><label>Support biometric events on iOS 7.1</label></div>
+		<div><label>Better accessibility support in Activator's configuration</label></div>
+		<div><label>Sort numbers naturally</label></div>
+		<div><label>Support Dictation action on iOS 7</label></div>
+		<div><label>Fix group arrow styling on iOS 7</label></div>
+		<div><label>Add action to go directly to Facebook settings</label></div>
+		<div><label>Fit more items on settings panes in landscape</label></div>
+		<div><label>Support libhide on iOS 7</label></div>
+		<div><label>Add ability to search actions back to iOS 7</label></div>
+		<div><label>Allow notification center on lock screen on iOS 7</label></div>
+		<div><label>Fix lock screen media controls not working on iOS 7</label></div>
+		<div><label>Adjust settings page styling</label></div>
+		<div><label>Hide additional iOS 7 view services</label></div>
+		<div><label>Fix lock screen clock actions on iOS 7</label></div>
+		<div><label>Snooze alarms instead of dismissing them on iOS 7</label></div>
+		<div><label>Adjust shake event behaviour to not repeat in all cases</label></div>
+		<div><label>Fix group expand/collapse style on iOS 7</label></div>
+		<div><label>Fix crash when sending biometric event when lock screen camera is up</label></div>
+		<div><label>Block automatic clickthroughs in the ad view</label></div>
+		<div><label>Reenable biometric sensor when event mode changes, so that the event always works</label></div>
+		<div><label>Fix shutter/camera actions on iOS 7</label></div>
+		<div><label>Support slide gestures on the lock screen on iOS 7</label></div>
+		<div><label>Fix single-press menu button event at lock screen on iOS 7</label></div>
+		<div><label>Update localizations</label></div>
+	</fieldset>
+
+	<label>1.8.3: January 3, 2013</label>
+	<fieldset>
+		<div><label>Fix arm64-specific crashes</label></div>
+		<div><label>FIx long reboot times on iOS 7</label></div>
+		<div><label>Update localizations</label></div>
+		<div><label>Add fingerprint event on the iPhone 5S</label></div>
+		<div><label>Better detect device capabilities on iOS 7</label></div>
+	</fieldset>
+
+	<label>1.8.2: December 31, 2013</label>
+	<fieldset>
+		<div><label>Support for iOS 7</label></div>
+		<div><label>Support for arm64 devices</label></div>
+		<div><label>Better safe mode detection</label></div>
+		<div><label>Log home button interceptions for easier debugging</label></div>
+		<div><label>Add Wi-Fi network events</label></div>
+		<div><label>Block dangerous actions from the device unlocked event</label></div>
+	</fieldset>
+
+	<label>1.8.1: July 5, 2013</label>
+	<fieldset>
+		<div><label>Don't require powered display for many of the standard listeners</label></div>
+		<div><label>Don't turn on display if no action is assigned to an event</label></div>
+		<div><label>Show proper state in banner when toggling flip switches</label></div>
+		<div><label>Properly show icons for ringtone actions on iPad</label></div>
+		<div><label>Fix incompatibility with VoiceActivator</label></div>
+		<div><label>Preview ringtone actions when assigned</label></div>
+		<div><label>Add support for custom incoming message events</label></div>
+		<div><label>Introduce new developer APIs</label></div>
+		<div><label>Update localizations</label></div>
+		<div><label>Add another Easter Egg</label></div>
+	</fieldset>
+
+	<label>1.8.0-1: July 1, 2013</label>
+	<fieldset>
+		<div><label>Fix regression whereby the sleep button required a second press to show the lock screen</label></div>
+		<div><label>Suppress locked/unlocked events on older iOS versions where they don't work properly</label></div>
+		<div><label>Better show actual state of Flipswitch switches in action banners</label></div>
+		<div><label>Fix "Restore Assignments" feature on some devices</label></div>
+	</fieldset>
+
+	<label>1.8: July 1, 2013</label>
+	<fieldset>
+		<div><label>Add ability to create scheduled events that can be assigned</label></div>
+		<div><label>Add support for ringtone actions</label></div>
+		<div><label>Fix bug whereby swipe/slide gestures would cause the notification center to become inaccessible</label></div>
+		<div><label>Add Share button to settings app</label></div>
+		<div><label>Add Device Unlocked and Device Locked events</label></div>
+		<div><label>Add long hold sleep button event</label></div>
+		<div><label>Add edge slide gestures</label></div>
+		<div><label>Hide ads immediately when the donate button is pressed</label></div>
+		<div><label>Allow selecting which actions show banners</label></div>
+		<div><label>Support Bluetooth settings pane on iOS5 again</label></div>
+		<div><label>Allow menus to contain links to themselves</label></div>
+		<div><label>Fix notification center action not working from inside a menu</label></div>
+		<div><label>Add a dictation action</label></div>
+		<div><label>Introduce new public APIs</label></div>
+		<div><label>Show listener icons in banners</label></div>
+		<div><label>Rearrange settings pane</label></div>
+		<div><label>Require latest version of PreferenceLoader</label></div>
+		<div><label>Conflict with the latest version of QuickDo</label></div>
+		<div><label>Add additional lock screen clock gestures</label></div>
+		<div><label>Allow renaming menus</label></div>
+		<div><label>Show preview image for collapsed groups</label></div>
+		<div><label>Performance improvements</label></div>
+		<div><label>Added an Easter egg</label></div>
+		<div><label>Allow assigning multiple actions to an event, so long as they are compatible</label></div>
+		<div><label>Updated app icon</label></div>
+		<div><label>Make certain groups collapsible by default, instead of overflowing after a certain number of actions</label></div>
+		<div><label>Add "Sleep Button Press with Menu Button" event</label></div>
+		<div><label>Add "Invoke Shutter" action</label></div>
+		<div><label>Support custom events triggered by incoming mail</label></div>
+		<div><label>Send event mode changed notification properly on iOS6</label></div>
+		<div><label>Support per-app launched and icon flick gestures</label></div>
+		<div><label>Allow volume controls on the lock screen while media controls are present</label></div>
+		<div><label>Stash the /Library/Activator folder to lessen disk usage on root partition</label></div>
+		<div><label>Improve scroll performance of blacklist page</label></div>
+		<div><label>Add Flipswitch integration</label></div>
+		<div><label>Allow adjusting sensitivity of slide in gestures</label></div>
+		<div><label>Allow events to be incompatible with automatic unlocking and make single press home incompatible</label></div>
+		<div><label>Fix animation regressions in activating apps from the lock screen</label></div>
+		<div><label>Fix sound action icons on iPad</label></div>
+		<div><label>Include an activator command that can be run from a shell</label></div>
+		<div><label>Reduce memory use</label></div>
+		<div><label>Add localization debugging features (enable with "activator set LALocalizationDebug 1" in a shell)</label></div>
+		<div><label>Make slide in from bottom gestures less sensitive</label></div>
+		<div><label>Add ability to activate a mail composer to a specific contact's email address</label></div>
+		<div><label>Add ability to activate a message composer to a specific contact's phone number/email address</label></div>
+		<div><label>Add ability to directly call a specific contact's phone number</label></div>
+		<div><label>Improve settings pane's performance</label></div>
+		<div><label>Allow events that aren't supported on the lock screen to prompt for the passcode or automatically unlock and activate if no passcode is present</label></div>
+		<div><label>When a large number of actions are present in a single group, collapse the group by default so that the settings pane does not become unwieldy</label></div>
+		<div><label>Fix "New Message" option's keyboard not showing on iPad</label></div>
+		<div><label>Add "Smart Cover" events for iPad</label></div>
+		<div><label>Show alert message when an incompatible assignment is made, to prevent confusion</label></div>
+		<div><label>Change toggle alert style on lock screen to be less obtrusive</label></div>
+		<div><label>Fix swipe event causing the notification center not to work</label></div>
+		<div><label>Fix Virtual Assistant action not working while touches are onscreen</label></div>
+		<div><label>Add workaround for the kern.maxvnodes bug</label></div>
+		<div><label>Add new "Cellular" settings listener for iOS6.0 and up</label></div>
+		<div><label>Add "Slide Off Screen" events</label></div>
+		<div><label>Add "Icon Flick" events</label></div>
+		<div><label>Better error handling when package contents are missing</label></div>
+		<div><label>Allow linking directly to an event's assignment from a settings page</label></div>
+		<div><label>Allow events to require assignment</label></div>
+		<div><label>Updated developer API</label></div>
+		<div><label>Add Dutch localization</label></div>
+		<div><label>Updated localizations</label></div>
+	</fieldset>
+
+	<label>1.7.2: February 3, 2013</label>
+	<fieldset>
+		<div><label>Fully support iOS 6.1</label></div>
+		<div><label>Support taller iPhone 5/iPod touch loop devices</label></div>
+	</fieldset>
+
+	<label>1.7.1: October 28, 2012</label>
+	<fieldset>
+		<div><label>Fully support iOS 6.0</label></div>
+		<div><label>Improved configuration performance</label></div>
+		<div><label>Fix touch gestures requiring an extra touch on iOS6.0</label></div>
+		<div><label>Add Volume Up and Volume Down actions</label></div>
+		<div><label>Better handling of the triple press menu event</label></div>
+		<div><label>Proper use of event timestamps in the event that SpringBoard has become sluggish due to other extensions</label></div>
+		<div><label>Support muting the active alert on iOS6.0</label></div>
+		<div><label>Fix blacklist settings controller display</label></div>
+	</fieldset>
+
+	<label>1.7.0: September 18, 2012</label>
+	<fieldset>
+		<div><label>Support iOS 6.0</label></div>
+		<div><label>New Assignments settings pane with backup/restore feature</label></div>
+		<div><label>Improve performance</label></div>
+		<div><label>Additional multi-touch gestures</label></div>
+		<div><label>Add Text, Message, Twitter, Facebook and Weibo actions</label></div>
+		<div><label>New long hold home button event</label></div>
+		<div><label>More customizable statusbar gestures</label></div>
+		<div><label>Better safe mode detection and recovery</label></div>
+		<div><label>New APIs to detect when new actions or events become available</label></div>
+		<div><label>armv7 architecture support</label></div>
+		<div><label>Lower memory use</label></div>
+		<div><label>Updated Localizations</label></div>
+	</fieldset>
+
+	<label>1.6.2: April 1, 2012</label>
+	<fieldset>
+		<div><label>Support iOS 5.1</label></div>
+		<div><label>Add Pause and Play actions</label></div>
+		<div><label>Add Headset Connected/Disconnected Events</label></div>
+		<div><label>Use much simpler native gestures on iOS5 (should fix numerous gesture-related bugs)</label></div>
+		<div><label>Fix delayed headset action crash on iOS5</label></div>
+		<div><label>Dismiss notification center when activating first page</label></div>
+		<div><label>Make Activate Assistant action dismiss if assistant is already visible</label></div>
+		<div><label>Suppress single press home button if assistant or voice controls are visible</label></div>
+		<div><label>Add icons to menus</label></div>
+		<div><label>Updated localizations</label></div>
+		<div><label>Describe menus with the list of their contents</label></div>
+		<div><label>Indicate events that don't have anything assigned by a lighter subtitle text color</label></div>
+		<div><label>Show placeholder icon while real icons are loading</label></div>
+		<div><label>Fix down/up and up/down volume events actions not resetting the volume</div></label>
+		<div><label>Fix crash when assigned menu item is uninstalled (1.6.2 beta 1 regression)</div></label>
+		<div><label>Improve settings pane load time</label></div>
+		<div><label>Properly reset slide gestures count when event mode changes</label></div>
+		<div><label>Abort slide gestures when device is locked/unlocked</label></div>
+		<div><label>Make settings commit immediately</label></div>
+		<div><label>Support Show Volume Bar on iPad/iOS5</label></div>
+		<div><label>Fix unable to add items to menus with a blank name</label></div>
+		<div><label>Fix LaunchServices warnings in settings panes</label></div>
+		<div><label>Categorize web clips into their own section</label></div>
+		<div><label>Update icons</label></div>
+		<div><label>Properly handle touches cancelled on statusbar</label></div>
+		<div><label>Fix crash on iOS3 when action icon is missing</label></div>
+		<div><label>Add requires-no-touch-events info key so that actions can defer receiving events until after touches finish</label></div>
+	</fieldset>
+
+	<label>1.6.1: January 16, 2012</label>
+	<fieldset>
+		<div><label>Add settings actions</label></div>
+		<div><label>Add two-finger slide in events</label></div>
+		<div><label>Fix slide in gesures becoming inactive after an orientation change on iOS5.0</label></div>
+		<div><label>Increase time required to generate a hold event</label></div>
+		<div><label>Smoother scrolling in action selection pane</label></div>
+		<div><label>Support wired headset events on iOS5.0</label></div>
+		<div><label>Dismiss notification center with home button if visible</label></div>
+		<div><label>Update localizations</label></div>
+		<div><label>Add missing phone actions back to iOS5.0</label></div>
+		<div><label>Vastly improved menu settings pages</label></div>
+		<div><label>Allow menus that link to other menus</label></div>
+		<div><label>Allow reordering menu items</label></div>
+		<div><label>Use lock screen camera interface instead of real camera app when locked on iOS5.0</label></div>
+		<div><label>Toggle camera button when toggling media controls on lock screen on iOS5.0</label></div>
+		<div><label>Fix status bar taking over app orientation when menus are made visible in landscape</label></div>
+		<div><label>Fix sending <code>didChangeToEventMode:</code> API on iOS5.0</label></div>
+		<div><label>Reduce memory use in some cases</label></div>
+	</fieldset>
+
+	<label>1.6.0: December 31, 2011</label>
+	<fieldset>
+		<div><label>New slide gestures</label></div>
+		<div><label>Add blacklist feature</label></div>
+		<div><label>Add "Virtual Assistant" action</label></div>
+		<div><label>Rotate menu actions and slide events with the screen orientation</label></div>
+		<div><label>Reduced in-app startup time and memory footprint</label></div>
+		<div><label>Add Recents and Voicemail Phone actions back on iOS5.0</label></div>
+		<div><label>Support shutter button in fake lock screen camera app on iOS5.0</label></div>
+		<div><label>Improved Settings performance</label></div>
+		<div><label>Abort volume repeat when short hold gesture succeeds</label></div>
+		<div><label>Only send activator:didChangeToEventMode: callback if event mode actually changed</label></div>
+		<div><label>Improve wording of safe mode warning message</label></div>
+		<div><label>Fix missing icons and startup image on retina devices on iOS5.0</label></div>
+		<div><label>Use retina images for SBSettings toggles</label></div>
+		<div><label>Support silencing alarms via volume down button on iOS5.0</label></div>
+		<div><label>Support MobileVolumeSound</label></div>
+		<div><label>Send volume press events to alerts on iOS5.0</label></div>
+		<div><label>Update localizations</label></div>
+	</fieldset>
+
+	<label>1.5.8: November 28, 2011</label>
+	<fieldset>
+		<div><label>Add menu triple press event</label></div>
+		<div><label>Add Show Volume Bar action</label></div>
+		<div><label>Use the default volume behavior when Camera requests volume events</label></div>
+		<div><label>Fix missing icons on iOS5</label></div>
+		<div><label>Improve scrolling performance in Settings</label></div>
+		<div><label>Improve memory use</label></div>
+		<div><label>Make notification center action toggle</label></div>
+		<div><label>Decrease hold event times</label></div>
+		<div><label>Add safe mode message</label></div>
+		<div><label>Better volume event support</label></div>
+		<div><label>Improve orientation change performance</label></div>
+		<div><label>Fix double-tap lock crash on iOS5</label></div>
+	</fieldset>
+
+	<label>1.5.7: October 10, 2011</label>
+	<fieldset>
+		<div><label>Support iOS 5.0 GM</label></div>
+		<div><label>Add "Compose Tweet" and "Show Notification Center" actions on iOS5.0</label></div>
+		<div><label>Add "Show Icon" option to the root settings pane</label></div>
+		<div><label>Update localizations</label></div>
+		<div><label>Store menu preferences alongside standard preferences</label></div>
+		<div><label>Optimize sending activator:didChangeToEventMode: for improved performance</label></div>
+		<div><label>Fix SpringBoard eating single press home event if folder is open or icons are somehow in edit mode</label></div>
+		<div><label>Support activating spotlight while a folder is open</label></div>
+	</fieldset>
+
+	<label>1.5.6: July 31, 2011</label>
+	<fieldset>
+		<div><label>Add Activator app</label></div>
+		<div><label>Add new "First SpringBoard Page" action</label></div>
+	</fieldset>
+
+	<label>1.5.5: July 5, 2011</label>
+	<fieldset>
+		<div><label>Fix emergency calls behaving like the device is in the unlocked state</label></div>
+		<div><label>Disable stashing for /usr/include</label></div>
+	</fieldset>
+
+	<label>1.5.4: April 4, 2011</label>
+	<fieldset>
+		<div><label>Ensure listener is set before sending event</label></div>
+		<div><label>Send machine data in ad requests</label></div>
+		<div><label>Fix crash in Settings on iOS4.2+iPad</label></div>
+		<div><label>Performance enhancements</label></div>
+		<div><label>Fix Preferences crashing</label></div>
+		<div><label>Allow sending deactivate events from outside SpringBoard</label></div>
+		<div><label>Add search bar to listener selection settings pane</label></div>
+	</fieldset>
+
+	<label>1.5.3: February 3, 2011</label>
+	<fieldset>
+		<div><label>Fix Voice Control breaking when dismissed</label></div>
+		<div><label>Reduced table cell height in settings</label></div>
+		<div><label>Fix default actions not registering</label></div>
+		<div><label>Fix ad showing inside alert</label></div>
+		<div><label>Updated localizations</label></div>
+		<div><label>Better NewCydia detection</label></div>
+		<div><label>Force PreferenceLoader in Settings</label></div>
+	</fieldset>
+
+	<label>1.5.2: February 1, 2011</label>
+	<fieldset>
+		<div><label>Enable events in Cydia except when installing (when possible)</label></div>
+	</fieldset>
+
+	<label>1.5.1: February 1, 2011</label>
+	<fieldset>
+		<div><label>Restore missing Voice Control feature</label></div>
+		<div><label>Use dosado transition when swapping apps</label></div>
+		<div><label>Fix BTServer crashing when erroneously loaded in it</label></div>
+	</fieldset>
+
+	<label>1.5.0: January 30, 2011</label>
+	<fieldset>
+		<div><label>Add Menus feature</label></div>
+		<div><label>Allow launching apps at lockscreen</label></div>
+		<div><label>Volume down now ends ringtone</label></div>
+		<div><label>Add support for 4.2</label></div>
+		<div><label>Add power events</label></div>
+		<div><label>Support dynamic events</label></div>
+		<div><label>Disallow activating in Cydia</label></div>
+		<div><label>Fix swipe events on certain devices</label></div>
+		<div><label>Use less memory</label></div>
+		<div><label>Use less CPU</label></div>
+		<div><label>Be more strict with API clients</label></div>
+		<div><label>Updated localizations</label></div>
+	</fieldset>
+	
+	<label>1.4.6: October 2, 2010</label>
+	<fieldset>
+		<div><label>Be more resilient of corrupt settings</label></div>
+		<div><label>iPad-related fixes</label></div>
+		<div><label>Fix volume tap on iOS 3.x</label></div>
+		<div><label>Status bar gestures no longer scroll to top</label></div>
+		<div><label>Track "locked state" better</label></div>
+	</fieldset>
+	
+	<label>1.4.5: September 26, 2010</label>
+	<fieldset>
+		<div><label>Fix volume HUD not disappearing on iOS3.x</label></div>
+	</fieldset>
+	
+	<label>1.4.4: September 24, 2010</label>
+	<fieldset>
+		<div><label>Fix Bluetooth showing wrong value</label></div>
+		<div><label>Fix double tap home on iPad</label></div>
+		<div><label>Add double-tap on lockscreen clock</label></div>
+	</fieldset>
+	
+	<label>1.4.3: September 16, 2010</label>
+	<fieldset>
+		<div><label>Add Now Playing Bar action</label></div>
+		<div><label>Add volume button events</label></div>
+		<div><label>Add phone actions</label></div>
+		<div><label>Warn on unsupported iOS versions</label></div>
+	</fieldset>
+	
+	<label>1.4.2: August 19, 2010</label>
+	<fieldset>
+		<div><label>Fix Single Press Home button at lock screen</label></div>
+		<div><label>Add Donate button</label></div>
+		<div><label>Fix slide gestures at startup</label></div>
+		<div><label>Fix slide in gestures being sent repeatedly</label></div>
+		<div><label>Disable double-tap lock events entirely when no action is assigned</label></div>
+	</fieldset>
+
+	<label>1.4.1: August 19, 2010</label>
+	<fieldset>
+		<div><label>Add Retina Display graphics</label></div>
+		<div><label>Fix launching Apple's multitasking switcher via certain activation methods</label></div>
+		<div><label>Show all icons in Apple's multitasking switcher</label></div>
+		<div><label>Fix Volume tap gesture window getting stuck in rare circumstances</label></div>
+		<div><label>Ignore all events inside Cydia (to prevent using an extension while it is being updated/uninstalled)</label></div>
+		<div><label>Fix shake events on iOS4.0</label></div>
+		<div><label>Fix double-tap lock button event on iOS4.0</label></div>
+		<div><label>Make lock button double tap behave more like the standard behaviour</label></div>
+		<div><label>Allow actions to receive raw events</label></div>
+		<div><label>Hide ads when exiting settings</label></div>
+	</fieldset>
+
+	<label>1.4.0: August 18, 2010</label>
+	<fieldset>
+		<div><label>Support for Headset buttons</label></div>
+		<div><label>Support for iOS4.0</label></div>
+		<div><label>Support for Apple's switcher</label></div>
+		<div><label>Support for SBSettings toggles</label></div>
+		<div><label>Optimized settings pane</label></div>
+		<div><label>Updated localizations</label></div>
+		<div><label>Fix double-height status bar incompatibility</label></div>
+		<div><label>Hide iPod button when locked (security hole)</label></div>
+		<div><label>Avoid the sandbox entirely</label></div>
+		<div><label>Settings pane API for BigBoss</label></div>
+		<div><label>Speedup process launch slightly</label></div>
+		<div><label>Improved respring time</label></div>
+		<div><label>Reduced memory use</label></div>
+	</fieldset>
+	
+	<label>1.3.1: April 18, 2010</label>
+	<fieldset>
+		<div><label>Unassign button in settings header</label></div>
+		<div><label>Send deactivate event at lock screen</label></div>
+		<div><label>Basic volume event heuristics</label></div>
+		<div><label>Fixed lock/menu event weirdness</label></div>
+		<div><label>Abort event when Voice Control is triggered</label></div>
+		<div><label>Prevent getting "stuck" inside an app</label></div>
+		<div><label>Wildcat support</label></div>
+		<div><label>Fix potential crash</label></div>
+	</fieldset>
+	
+	<label>1.3.0: March 30, 2010</label>
+	<fieldset>
+		<div><label>Added iPod actions, Voice Control, Take Screenshot, Lock Screen controls</label></div>
+		<div><label>More Actions page</label></div>
+		<div><label>Statusbar listeners</label></div>
+		<div><label>"Virtual Listeners"</label></div>
+		<div><label>Better settings design</label></div>
+		<div><label>Italian localization update</label></div>
+		<div><label>Spanish localization</label></div>
+		<div><label>Group BTstack keyboard actions into their own subpane</label></div>
+		<div><label>Less sensitive swipe gestures</label></div>
+		<div><label>Fix for iTunes applications crash</label></div>
+	</fieldset>
+	
+	<label>1.2: January 30, 2010</label>
+	<fieldset>
+		<div><label>Support for activating regular applications</label></div>
+		<div><label>New events</label></div>
+		<div><label>Built-in system action</label></div>
+		<div><label>Safe to generate events cross-application</label></div>
+		<div><label>Cached Settings</label></div>
+		<div><label>Grouped Actions</label></div>
+		<div><label>Italian Localization</label></div>
+		<div><label>Bugfixes</label></div>
+	</fieldset>
+
+	<label>1.1: January 18, 2010</label>
+	<fieldset>
+		<!--div><label>Support mQuickDo</label></div-->
+		<div><label>Add Volume HUD Tap</label></div>
+		<div><label>Fix lock button events</label></div>
+		<div><label>New settings pane</label></div>
+		<div><label>Statusbar events</label></div>
+		<div><label>Support Crash Reporter</label></div>
+		<div><label>Added slide gestures</label></div>
+	</fieldset>
+	
+	<label>1.0: December 27, 2009</label>
+	<fieldset>
+		<div><label>Initial release</label></div>
+	</fieldset>
+	
+</panel>
+
+</body></html>
