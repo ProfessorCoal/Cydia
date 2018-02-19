@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="description" content="This document describes the security content of iOS 11.2.1.
+" />
+        <meta property="og:url" content="https://support.apple.com/en-us/HT208357" />
+          <meta property="og:title" content="About the security content of iOS 11.2.1" />
+          <meta property="og:description" content="This document describes the security content of iOS 11.2.1.
+" />
+          <meta property="og:site_name" content="Apple Support" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="article" />
+          
+         <title>About the security content of iOS 11.2.1 - Apple Support</title>
+			
+		<link rel="canonical" href="https://support.apple.com/en-us/HT208357" /> 
+		<link rel="alternate" hreflang="it-it" href="https://support.apple.com/it-it/HT208357">
+		<link rel="alternate" hreflang="it-ch" href="https://support.apple.com/it-ch/HT208357">
+		<link rel="alternate" hreflang="el-gr" href="https://support.apple.com/el-gr/HT208357">
+		<link rel="alternate" hreflang="el-cy" href="https://support.apple.com/el-cy/HT208357">
+		<link rel="alternate" hreflang="ru-ru" href="https://support.apple.com/ru-ru/HT208357">
+		<link rel="alternate" hreflang="pl-pl" href="https://support.apple.com/pl-pl/HT208357">
+		<link rel="alternate" hreflang="ro-ro" href="https://support.apple.com/ro-ro/HT208357">
+		<link rel="alternate" hreflang="tr-tr" href="https://support.apple.com/tr-tr/HT208357">
+		<link rel="alternate" hreflang="id-id" href="https://support.apple.com/id-id/HT208357">
+		<link rel="alternate" hreflang="pt-br" href="https://support.apple.com/pt-br/HT208357">
+		<link rel="alternate" hreflang="th-th" href="https://support.apple.com/th-th/HT208357">
+		<link rel="alternate" hreflang="ja-jp" href="https://support.apple.com/ja-jp/HT208357">
+		<link rel="alternate" hreflang="fr-ml" href="https://support.apple.com/fr-ml/HT208357">
+		<link rel="alternate" hreflang="fr-ca" href="https://support.apple.com/fr-ca/HT208357">
+		<link rel="alternate" hreflang="fr-be" href="https://support.apple.com/fr-be/HT208357">
+		<link rel="alternate" hreflang="fr-cf" href="https://support.apple.com/fr-cf/HT208357">
+		<link rel="alternate" hreflang="fr-gn" href="https://support.apple.com/fr-gn/HT208357">
+		<link rel="alternate" hreflang="fr-mu" href="https://support.apple.com/fr-mu/HT208357">
+		<link rel="alternate" hreflang="fr-ch" href="https://support.apple.com/fr-ch/HT208357">
+		<link rel="alternate" hreflang="fr-ci" href="https://support.apple.com/fr-ci/HT208357">
+		<link rel="alternate" hreflang="fr-fr" href="https://support.apple.com/fr-fr/HT208357">
+		<link rel="alternate" hreflang="fr-lu" href="https://support.apple.com/fr-lu/HT208357">
+		<link rel="alternate" hreflang="fr-cm" href="https://support.apple.com/fr-cm/HT208357">
+		<link rel="alternate" hreflang="fr-gq" href="https://support.apple.com/fr-gq/HT208357">
+		<link rel="alternate" hreflang="fr-ma" href="https://support.apple.com/fr-ma/HT208357">
+		<link rel="alternate" hreflang="fr-ne" href="https://support.apple.com/fr-ne/HT208357">
+		<link rel="alternate" hreflang="fr-sn" href="https://support.apple.com/fr-sn/HT208357">
+		<link rel="alternate" hreflang="fr-mg" href="https://support.apple.com/fr-mg/HT208357">
+		<link rel="alternate" hreflang="fr-tn" href="https://support.apple.com/fr-tn/HT208357">
+		<link rel="alternate" hreflang="cs-cz" href="https://support.apple.com/cs-cz/HT208357">
+		<link rel="alternate" hreflang="hu-hu" href="https://support.apple.com/hu-hu/HT208357">
+		<link rel="alternate" hreflang="de-at" href="https://support.apple.com/de-at/HT208357">
+		<link rel="alternate" hreflang="de-ch" href="https://support.apple.com/de-ch/HT208357">
+		<link rel="alternate" hreflang="de-lu" href="https://support.apple.com/de-lu/HT208357">
+		<link rel="alternate" hreflang="de-li" href="https://support.apple.com/de-li/HT208357">
+		<link rel="alternate" hreflang="de-de" href="https://support.apple.com/de-de/HT208357">
+		<link rel="alternate" hreflang="ar-sa" href="https://support.apple.com/ar-sa/HT208357">
+		<link rel="alternate" hreflang="ar-ae" href="https://support.apple.com/ar-ae/HT208357">
+		<link rel="alternate" hreflang="zh-hk" href="https://support.apple.com/zh-hk/HT208357">
+		<link rel="alternate" hreflang="zh-tw" href="https://support.apple.com/zh-tw/HT208357">
+		<link rel="alternate" hreflang="zh-mo" href="https://support.apple.com/zh-mo/HT208357">
+		<link rel="alternate" hreflang="es-mx" href="https://support.apple.com/es-mx/HT208357">
+		<link rel="alternate" hreflang="es-co" href="https://support.apple.com/es-co/HT208357">
+		<link rel="alternate" hreflang="es-us" href="https://support.apple.com/es-us/HT208357">
+		<link rel="alternate" hreflang="es-cl" href="https://support.apple.com/es-cl/HT208357">
+		<link rel="alternate" hreflang="sk-sk" href="https://support.apple.com/sk-sk/HT208357">
+		<link rel="alternate" hreflang="es-es" href="https://support.apple.com/es-es/HT208357">
+		<link rel="alternate" hreflang="nl-be" href="https://support.apple.com/nl-be/HT208357">
+		<link rel="alternate" hreflang="nl-nl" href="https://support.apple.com/nl-nl/HT208357">
+		<link rel="alternate" hreflang="sv-se" href="https://support.apple.com/sv-se/HT208357">
+		<link rel="alternate" hreflang="da-dk" href="https://support.apple.com/da-dk/HT208357">
+		<link rel="alternate" hreflang="hr-hr" href="https://support.apple.com/hr-hr/HT208357">
+		<link rel="alternate" hreflang="fi-fi" href="https://support.apple.com/fi-fi/HT208357">
+		<link rel="alternate" hreflang="ko-kr" href="https://support.apple.com/ko-kr/HT208357">
+		<link rel="alternate" hreflang="en-kw" href="https://support.apple.com/en-kw/HT208357">
+		<link rel="alternate" hreflang="en-my" href="https://support.apple.com/en-my/HT208357">
+		<link rel="alternate" hreflang="en-am" href="https://support.apple.com/en-am/HT208357">
+		<link rel="alternate" hreflang="en-mz" href="https://support.apple.com/en-mz/HT208357">
+		<link rel="alternate" hreflang="en-is" href="https://support.apple.com/en-is/HT208357">
+		<link rel="alternate" hreflang="en-al" href="https://support.apple.com/en-al/HT208357">
+		<link rel="alternate" hreflang="en-gw" href="https://support.apple.com/en-gw/HT208357">
+		<link rel="alternate" hreflang="en-gu" href="https://support.apple.com/en-gu/HT208357">
+		<link rel="alternate" hreflang="en-au" href="https://support.apple.com/en-au/HT208357">
+		<link rel="alternate" hreflang="en-ph" href="https://support.apple.com/en-ph/HT208357">
+		<link rel="alternate" hreflang="en-vn" href="https://support.apple.com/en-vn/HT208357">
+		<link rel="alternate" hreflang="en-ng" href="https://support.apple.com/en-ng/HT208357">
+		<link rel="alternate" hreflang="en-lb" href="https://support.apple.com/en-lb/HT208357">
+		<link rel="alternate" hreflang="en-lk" href="https://support.apple.com/en-lk/HT208357">
+		<link rel="alternate" hreflang="en-jo" href="https://support.apple.com/en-jo/HT208357">
+		<link rel="alternate" hreflang="en-hk" href="https://support.apple.com/en-hk/HT208357">
+		<link rel="alternate" hreflang="en-bh" href="https://support.apple.com/en-bh/HT208357">
+		<link rel="alternate" hreflang="en-nz" href="https://support.apple.com/en-nz/HT208357">
+		<link rel="alternate" hreflang="en-bn" href="https://support.apple.com/en-bn/HT208357">
+		<link rel="alternate" hreflang="en-qa" href="https://support.apple.com/en-qa/HT208357">
+		<link rel="alternate" hreflang="en-sa" href="https://support.apple.com/en-sa/HT208357">
+		<link rel="alternate" hreflang="en-sg" href="https://support.apple.com/en-sg/HT208357">
+		<link rel="alternate" hreflang="en-bw" href="https://support.apple.com/en-bw/HT208357">
+		<link rel="alternate" hreflang="en-ug" href="https://support.apple.com/en-ug/HT208357">
+		<link rel="alternate" hreflang="en-me" href="https://support.apple.com/en-me/HT208357">
+		<link rel="alternate" hreflang="en-md" href="https://support.apple.com/en-md/HT208357">
+		<link rel="alternate" hreflang="en-ie" href="https://support.apple.com/en-ie/HT208357">
+		<link rel="alternate" hreflang="en-ke" href="https://support.apple.com/en-ke/HT208357">
+		<link rel="alternate" hreflang="en-gb" href="https://support.apple.com/en-gb/HT208357">
+		<link rel="alternate" hreflang="en-mn" href="https://support.apple.com/en-mn/HT208357">
+		<link rel="alternate" hreflang="en-om" href="https://support.apple.com/en-om/HT208357">
+		<link rel="alternate" hreflang="en-us" href="https://support.apple.com/en-us/HT208357">
+		<link rel="alternate" hreflang="en-ca" href="https://support.apple.com/en-ca/HT208357">
+		<link rel="alternate" hreflang="en-mk" href="https://support.apple.com/en-mk/HT208357">
+		<link rel="alternate" hreflang="en-ae" href="https://support.apple.com/en-ae/HT208357">
+		<link rel="alternate" hreflang="en-in" href="https://support.apple.com/en-in/HT208357">
+		<link rel="alternate" hreflang="en-eg" href="https://support.apple.com/en-eg/HT208357">
+		<link rel="alternate" hreflang="en-mo" href="https://support.apple.com/en-mo/HT208357">
+		<link rel="alternate" hreflang="en-il" href="https://support.apple.com/en-il/HT208357">
+		<link rel="alternate" hreflang="en-mt" href="https://support.apple.com/en-mt/HT208357">
+		<link rel="alternate" hreflang="en-za" href="https://support.apple.com/en-za/HT208357">
+		<link rel="alternate" hreflang="zh-cn" href="https://support.apple.com/zh-cn/HT208357">
+		<link rel="alternate" hreflang="no-no" href="https://support.apple.com/no-no/HT208357">
+		<link rel="alternate" hreflang="pt-pt" href="https://support.apple.com/pt-pt/HT208357">
+		<!-- end css -->
+		<!-- start ie7 hacks -->
+			<!--[if lt IE 8]>
+			<style type="text/css">
+				@import "https://images.apple.com/support/home/css/ie.css";
+				#content.box{z-index : -1 !important;}
+			</style>
+			<![endif]-->
+		<!-- end ie7 hacks -->
+		<link rel="stylesheet" href="//www.apple.com/wss/fonts?families=SF+Pro,v1|SF+Pro+Icons,v1" type="text/css">
+		<!-- start css -->	
+	<link rel="stylesheet" href="https://www.apple.com/ac/globalnav/3/en_US/styles/ac-globalnav.built.css" type="text/css" media="all">
+		 	<link rel="stylesheet" href="https://www.apple.com//ac/globalfooter/3/en_US/styles/ac-globalfooter.built.css" type="text/css" media="all">
+		 		<link rel="stylesheet" href="https://km.support.apple.com/static_resources/css/cds_article.css" type="text/css"  />
+<link rel="stylesheet" href="https://support.apple.com/static_resources/css/footer.css" type="text/css" />
+		
+		<script src="https://www.apple.com/global/scripts/lib/prototype.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://www.apple.com/global/scripts/lib/scriptaculous.js" type="text/javascript" defer="defer" charset="utf-8"></script>
+		<script src="https://www.apple.com/support/scripts/ACSurvey.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="https://km.support.apple.com/static_resources/js/ACUtil.js" type="text/javascript" charset="utf-8"></script>
+	    
+	 <!--
+	    <script src="https://km.support.apple.com/static_resources/js/persist-min.js" type="text/javascript"></script>
+		<script src="https://km.support.apple.com/static_resources/js/browserdetect.js" type="text/javascript"></script>
+-->
+
+ 
+		<!--[if IE 8]><html class="ie ie8"> <![endif]-->
+		<!--[if IE 9]><html class="ie ie9"> <![endif]-->
+			<script src="https://km.support.apple.com/static_resources/js/KmLoader.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://km.support.apple.com/static_resources/js/ACHistory.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://km.support.apple.com/static_resources/js/ACTruncate.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://km.support.apple.com/static_resources/js/labelwrap.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://km.support.apple.com/static_resources/js/ac_cds_retina.js" type="text/javascript" charset="utf-8"></script>
+<meta name="ac-gn-store-key" content="S2A49YFKJF2JAT22K" />
+		<meta name="ac-gn-search-action" content="https://support.apple.com/kb/index" />
+		<meta name="ac-gn-search-input" content="q" />
+		<meta name="ac-gn-search-field[src]" content="globalnav_support" />
+		<meta name="ac-gn-search-field[type]" content="organic" />
+		<meta name="ac-gn-search-field[page]" content="search" />
+		<meta name="ac-gn-search-field[locale]" content="en_US" />
+		</head>
+	<body itemscope itemtype="https://schema.org/TechArticle" class="ac-gn-current-support">
+	<input type="hidden"  id="cdsHeaderObj" data-json='{"setPod": "true",
+"resourceUrl": "https://support.apple.com",
+"akamaiUrl": "https://km.support.apple.com",
+"modelValue": "Support",
+"aiSearchServiceURL": "support.apple.com",
+"podLocaleValue": "en_US",
+"omnitureLocale": "us_en",
+"aiCrossDomainSearchServiceURL": "support-suggestions.apple.com",
+"podValue": "us~en",
+"searchCountry": "us",
+"enableAppleInstant": "yes",
+"pageName": "kb",
+"amlSuggestionsUrl": "https://www.apple.com/search-services/suggestions/",
+"title": "About the security content of iOS 11.2.1",
+"channelName": "HOWTO_ARTICLES"
+}'>
+	<input type="hidden"  id="httpDownloadURL" value="http://support.apple.com">
+<!-- 	<script src="https://km.support.apple.com/static_resources/js/header.js" type="text/javascript" charset="utf-8"></script>
+ -->
+
+	
+<aside id="ac-gn-segmentbar" class="ac-gn-segmentbar" lang="en-US" dir="ltr" data-strings="{ 'exit': 'Exit', 'view': '{%STOREFRONT%} Store Home', 'segments': { 'smb': 'Business Store Home', 'eduInd': 'Education Store Home', 'other': 'Store Home' } }"></aside> <input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate" />
+<nav id="ac-globalnav" class="no-js" role="navigation" aria-label="Global Navigation" data-hires="false" data-analytics-region="global nav" lang="en-US" dir="ltr" data-store-locale="us" data-store-api="https://www.apple.com/[storefront]/shop/bag/status" data-search-locale="en_US" data-search-api="https://www.apple.com/search-services/suggestions/">
+	<div class="ac-gn-content">
+		<ul class="ac-gn-header">
+			<li class="ac-gn-item ac-gn-menuicon"> <label class="ac-gn-menuicon-label" for="ac-gn-menustate" aria-hidden="true">
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top"></span>
+					</span>
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom"></span>
+					</span>
+				</label>
+				<a href="#ac-gn-menustate" class="ac-gn-menuanchor ac-gn-menuanchor-open" id="ac-gn-menuanchor-open"> <span class="ac-gn-menuanchor-label">Open Menu</span> </a>
+				<a href="#" class="ac-gn-menuanchor ac-gn-menuanchor-close" id="ac-gn-menuanchor-close"> <span class="ac-gn-menuanchor-label">Close Menu</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="https://www.apple.com/" data-analytics-title="apple home" id="ac-gn-firstfocus-small"> <span class="ac-gn-link-text">Apple</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-bag ac-gn-bag-small" id="ac-gn-bag-small">
+				<a class="ac-gn-link ac-gn-link-bag" href="https://www.apple.com/us/shop/goto/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Shopping Bag" data-string-badge="Shopping Bag with Items"> <span class="ac-gn-link-text">Shopping Bag</span> <span class="ac-gn-bag-badge"></span> </a> <span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span> </li>
+		</ul>
+		<ul class="ac-gn-list">
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="https://www.apple.com/" data-analytics-title="apple home" id="ac-gn-firstfocus"> <span class="ac-gn-link-text">Apple</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-mac">
+				<a class="ac-gn-link ac-gn-link-mac" href="https://www.apple.com/mac/" data-analytics-title="mac"> <span class="ac-gn-link-text">Mac</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-ipad">
+				<a class="ac-gn-link ac-gn-link-ipad" href="https://www.apple.com/ipad/" data-analytics-title="ipad"> <span class="ac-gn-link-text">iPad</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-iphone">
+				<a class="ac-gn-link ac-gn-link-iphone" href="https://www.apple.com/iphone/" data-analytics-title="iphone"> <span class="ac-gn-link-text">iPhone</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-watch">
+				<a class="ac-gn-link ac-gn-link-watch" href="https://www.apple.com/watch/" data-analytics-title="watch"> <span class="ac-gn-link-text">Watch</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-tv">
+				<a class="ac-gn-link ac-gn-link-tv" href="https://www.apple.com/tv/" data-analytics-title="tv"> <span class="ac-gn-link-text">TV</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-music">
+				<a class="ac-gn-link ac-gn-link-music" href="https://www.apple.com/music/" data-analytics-title="music"> <span class="ac-gn-link-text">Music</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-support">
+				<a class="ac-gn-link ac-gn-link-support" href="https://support.apple.com/" data-analytics-title="support"> <span class="ac-gn-link-text">Support</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
+				<a class="ac-gn-link ac-gn-link-search" href="https://support.apple.com/kb/index?page=search&amp;locale=en_US" data-analytics-title="search" data-analytics-click="search" aria-label="Search support.apple.com"> <span class="ac-gn-search-placeholder" aria-hidden="true">Search support.apple.com</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
+				<a class="ac-gn-link ac-gn-link-bag" href="https://www.apple.com/us/shop/goto/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Shopping Bag" data-string-badge="Shopping Bag with Items"> <span class="ac-gn-link-text">Shopping Bag</span> <span class="ac-gn-bag-badge" aria-hidden="true"></span> </a> <span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span> </li>
+		</ul>
+		<aside id="ac-gn-searchview" class="ac-gn-searchview" role="search" data-analytics-region="search">
+			<div class="ac-gn-searchview-content">
+				<form id="ac-gn-searchform" class="ac-gn-searchform" action="https://www.apple.com/us/search" method="get">
+					<div class="ac-gn-searchform-wrapper"> <input id="ac-gn-searchform-input" class="ac-gn-searchform-input" type="text" aria-label="Search apple.com" placeholder="Search apple.com" data-placeholder-long="Search for Products, Stores, and Help" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" /> <input id="ac-gn-searchform-src" type="hidden" name="src" value="globalnav" /> <button id="ac-gn-searchform-submit" class="ac-gn-searchform-submit" type="submit" disabled aria-label="Submit"></button> <button id="ac-gn-searchform-reset" class="ac-gn-searchform-reset" type="reset" disabled aria-label="Clear Search"></button> </div>
+				</form>
+				<aside id="ac-gn-searchresults" class="ac-gn-searchresults" data-string-quicklinks="Quick Links" data-string-suggestions="Suggested Searches" data-string-noresults="Hit enter to search."></aside>
+			</div> <button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="Close Search">
+					<span class="ac-gn-searchview-close-wrapper">
+						<span class="ac-gn-searchview-close-left"></span>
+						<span class="ac-gn-searchview-close-right"></span>
+					</span>
+				</button> </aside>
+		<aside class="ac-gn-bagview" data-analytics-region="bag">
+			<div class="ac-gn-bagview-scrim"> <span class="ac-gn-bagview-caret ac-gn-bagview-caret-small"></span> </div>
+			<div class="ac-gn-bagview-content" id="ac-gn-bagview-content"> </div>
+		</aside>
+	</div>
+</nav>
+<div id="ac-gn-curtain" class="ac-gn-curtain"></div>
+<div id="ac-gn-placeholder" class="ac-nav-placeholder"></div>
+<script src="https://km.support.apple.com/static_resources/js/commonUtils.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://www.apple.com/support/assets/scripts/global/survey/accsoffer.js" type="text/javascript" charset="utf-8"></script>
+	<div id="main" role="main">
+    <div id="content">
+<h1 id="main-title" itemprop="headline">About the security content of iOS 11.2.1</h1>
+<div class="intro" ><p>This document describes the security content of iOS 11.2.1.</p>
+</div>
+
+<div itemprop="author" itemscope itemtype="http://schema.org/Organization">
+  <meta itemprop="name" content="Apple" />
+</div>
+<div id="sections" itemprop="articleBody">
+<div><h2>About Apple security updates</h2><p>For our customers' protection, Apple doesn't disclose, discuss, or confirm security issues until an investigation has occurred and patches or releases are available. Recent releases are listed on the&nbsp;<a href="https://support.apple.com/kb/HT201222">Apple security updates</a>&nbsp;page.</p>
+<p>For more information about security, see the&nbsp;<a href="https://support.apple.com/kb/HT201220">Apple Product Security</a>&nbsp;page. You can encrypt communications with Apple using the&nbsp;<a href="https://support.apple.com/kb/HT201601">Apple Product Security PGP Key</a>.</p>
+<p>Apple security documents reference vulnerabilities by&nbsp;<a href="http://cve.mitre.org/about/">CVE-ID</a>&nbsp;when possible.</p>
+</div><div><p><img alt="" src="/library/content/dam/edam/applecare/images/en_US/mac_apps/itunes/divider.png"></p>
+</div><div><h2>iOS 11.2.1</h2><p><span class="note">Released December 13, 2017</span></p>
+<p><strong>HomeKit</strong></p>
+<p style="margin-left: 40px;">Available for:&nbsp;iPhone 5s and later, iPad Air and later, and iPod touch 6th generation</p>
+<p style="margin-left: 40px;">Impact:&nbsp;A remote attacker may be able to unexpectedly alter application state</p>
+<p style="margin-left: 40px;">Description: A message handling issue was addressed with improved input validation.</p>
+<p style="margin-left: 40px;">CVE-2017-13903:&nbsp;Tian Zhang</p>
+</div>
+</div>
+<div class="sosumi"><p>Information about products not manufactured by Apple, or independent websites not controlled or tested by Apple, is provided without recommendation or endorsement. Apple assumes no responsibility with regard to the selection, performance, or use of third-party websites or products. Apple makes no representations regarding third-party website accuracy or reliability. Risks are inherent in the use of the Internet. <a href="https://support.apple.com/kb/HT201777">Contact the vendor</a> for additional information. Other company and product names may be trademarks of their respective owners.</p>
+</div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Start SiteCatalyst code version: H.8. -->
+<script language="JavaScript"><!--
+/* RSID: */
+var s_account="appleglobal,applesupport"
+//--></script>
+<script language="JavaScript" type="text/javascript" src="https://www.apple.com/metrics/scripts/s_code_h.js"></script>
+<script language="javascript">
+   var keyLang = 'en';
+   var persist={domain:"apple.com",cookie:{create:function(e,t,n){var r="";if(n){var i=new Date;i.setTime(i.getTime()+24*n*60*60*1e3),r="; expires="+i.toGMTString()}document.cookie=e+"="+t+r+"; path=/; domain="+persist.domain},read:function(e){for(var t=e+"=",n=document.cookie.split(";"),r=0;r<n.length;r++){for(var i=n[r];" "==i.charAt(0);)i=i.substring(1,i.length);if(0===i.indexOf(t))return i.substring(t.length,i.length)}return null},"delete":function(e){document.cookie=e+"=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/; domain="+persist.domain}}},__={reduce:function(e,t,n){var r=n;try{if("function"!=typeof e.reduce)for(var i=0,o=e.length;o>i;i++)r=t(r,e[i]);else r=e.reduce(t,n)}catch(a){}return r}};
+	
+   
+   s.prop1 = 'acs::kb::article';
+   
+   s.prop2 = 'acs::kb::info_type=update::topics=security update::in_house=Security & cert update';
+   
+   s.prop3 = 'acs::kb_howto_haiku_unarchived';
+   
+
+   function isMobile() {
+	   var isMobile= false;
+       var minimeDeviceUserAgents = 'iPhone+iPod+Android+MIDP+Opera Mobi+Opera Mini+IEMobile+MSIEMobile';
+       		if(minimeDeviceUserAgents!=undefined && minimeDeviceUserAgents!="") {
+       			var userAgent = navigator.userAgent.toLowerCase();
+       			var agentTokens = new Array();
+       			agentTokens = minimeDeviceUserAgents.split('+');
+       			for(var i = 0; i < agentTokens.length; i++) {
+         			if(userAgent.indexOf(agentTokens[i].toLowerCase())!=-1) {
+             		isMobile = true;
+             		break;
+         		}
+       		}
+       }
+       return isMobile;
+   }
+   
+   //capture prop23 as 'ms' if request is from mobile and 'fs' if request is from mobile for desktop page otherwise do nothing.
+   
+                if(isMobile()) {
+                	s.prop23 = 'fs';
+                }
+      
+</script>
+<script language="JavaScript"><!--
+var reversedLocale = "us-en";
+var pageNameLocale = "en_us";
+var url=location.href;
+var len=url.indexOf('?');
+if (len==-1){len=url.length}
+s.prop4=url.substr(0,len);
+
+var supportTitle = document.title.indexOf("Apple - Support - ")==-1 ? "Apple - Support - " + document.title.replace(/^\s+|\s+$/g,""): document.title.replace(/^\s+|\s+$/g,"");
+
+
+s.pageName="acs::kb::HT::HT208357::About the security content of iOS 11.2.1 (en_us)";
+		
+
+s.server="";
+s.channel="www.us.support";
+s.pageType="";
+
+/* E-commerce Variables */
+s.campaign="";
+s.state="";
+s.zip="";
+
+s.events="event27";
+	s.products=";acs::kb::productcategory::product security,;acs::kb::ios::ios::ios 11";
+	s.eVar27 = "acs::kb::HT::HT208357::version=1.2::en_us";
+	
+s.purchaseID="";
+
+
+	s.eVar1="";
+
+
+
+//SFAQ ends
+
+
+s.eVar2="";
+s.eVar3="";
+s.eVar4="";
+
+
+	s.eVar5="";
+
+
+
+
+var searcheVar1Value = persist.cookie.read("acs_evar5");
+if (!!searcheVar1Value) {
+	s.eVar5= decodeURIComponent(searcheVar1Value);	
+}
+persist.cookie.delete("acs_evar5");
+
+
+
+var searcheProp7Value = persist.cookie.read("acs_prop7");
+if (!!searcheProp7Value) {
+	s.prop7= decodeURIComponent(searcheProp7Value);	
+}
+persist.cookie.delete("acs_prop7");
+
+
+
+s.eVar2="";
+
+
+if(!s.prop14 && s.c_r('s_ppv')) {
+	try{
+	 var tempvar14 = s.c_r('s_ppv');
+	 try{
+		 tempvar14 = decodeURIComponent(tempvar14.replace(/\+/g,  " "));	 
+	 }catch(e){
+		 tempvar14 = unescape(tempvar14);
+	 }
+	 
+	 if(tempvar14.indexOf(",") != -1)
+		 {
+		 	tempvar14 = tempvar14.substring(0,tempvar14.indexOf(","));
+		 }
+	 s.prop14 = tempvar14;
+	 }catch(e){ }
+}
+	s.c_w('s_ppv',"acs::kb::HT::HT208357::About the security content of iOS 11.2.1 (en_us)"); 
+	
+
+
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<!-- End SiteCatalyst code version: H.8. -->
+
+
+<div class="mod-date">Published Date:<time datetime=" 2017-12-13" itemprop="dateModified"> Dec 13, 2017</time>
+  </div>
+  <div id="mimosa-tags">
+  
+  <input type ="hidden" id="mimosa-tags-heading" value="Related Topics" />
+  <input type ="hidden" id="showNavTagFlag" value="true" />
+  <input type ="hidden" id="tags-localised" value="Tag" />
+        </div>
+
+</div><!--/#content-->
+</div><!--/#main-->
+
+<!-- Helpful not helpful section -->
+ <div id="helpful">
+	<div id="question-state">
+		<fieldset>
+			<legend><span>Helpful?</span></legend>
+			<div class='helpful-btn-grp'>
+				<button class="five button" id="yes-button"
+				onclick="ACRating.submitCall('Yes',5,'HT208357','en_US',''); return false;"
+				title="	Solved my problem">Yes </button>
+				<button class="one button" id="no-button"
+				onclick="rateNotHelpful('No','HOWTO_ARTICLES+TROUBLESHOOTING_ARTICLES+KBMini','HOWTO_ARTICLES','HT208357','en_US'); return false;"
+				title="	Not helpful">No </button>
+			</div>
+		</fieldset>
+<!-- 		<a href="#" -->
+</div>
+
+	<div id="feedback-state" style="display: none;">
+		<form>
+			<label for="feedback">Thanks - please tell us how to help you better.</label>
+			<textarea id="feedback" maxlength="1024" onkeydown="limitText();" onkeyup="limitText();"></textarea>
+			<button type="submit" class="button"
+				onclick="feedbackSubmit('Submit','HT208357','en_US'); return false;">Submit</button>
+			<button type="button" class="button"
+				onclick="feedbackSubmit('Cancel','HT208357','en_US'); return false;">Cancel</button>
+		</form>
+	</div>
+
+	<div id="rating-send" style="display: none;">
+		One Moment Please</div>
+	<div id="rating-done" style="display: none;">
+		Thanks for your feedback.</div>
+	<div id="results-helpful" class="show">
+		74% of people found this helpful.</div>
+</div>
+<!-- helpful -->
+<div style="display:none">
+<div id="meta">
+                </div> <!--/#meta-->
+</div>          
+        <!-- Related Section -->
+<div class="border-div"></div>      
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+document.observe('dom:loaded', function () {
+  var lblwrap = new labelwrap('question-form');
+});
+</script>
+
+<div id="ask-widget">
+	<div class="contentWrapper">
+		<div class="sectionHeaderLayout">
+			<div class="icon"></div>
+			<div class="titleTextLayout">
+				<h2 class="title">Start a Discussion</h2>
+				<div class="subtitle">in Apple Support Communities</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+       				
+       			
+		<div class="sectionFormInputLayout">
+			<form onsubmit="return submitQuestionToForum('https://discussions.apple.com/question-post!input.jspa?','HT208357','Please enter your question!','Ask other users about this article');" id="question-form" method="POST">
+        		<span class="fieldwrap">
+             		<label for="interactiveQuestionSearchField" class="a11y">Ask other users about this article</label>
+            		<input type="text" id="interactiveQuestionSearchField" class="questionInputField" autocomplete="off" maxlength="255" value="" placeholder="Ask other users about this article">
+				</span>
+            	<div style="display: none;" id="interactiveQuestionSearchLoader">Wait...</div>
+            	<div class="clear"></div>
+            	<div class="jive-widget-question-div clearfix" id="question-submit">
+ 		    		<input type="submit" class="questionSubmitFormButton" value='Submit my question to the community' >
+            	   <!--  <div class="pad10"></div>   -->
+		   			<!-- progress -->
+		    		<div style="display: none;" class="jive-widget-question-div clearfix" id="question-search">
+		    			<div class="clearfix"><span class="jive-icon-load"></span></div>
+		    		</div>
+				</div>	
+				<div class="clear"></div>
+			</form>
+		</div>
+	
+		<div id="results-container">
+			<div id="results-loading" style="display:none;">
+				
+			</div>
+			<div id="results">
+               
+			</div>
+		</div> <!-- question-result -->
+
+
+		<div class="pad10"></div>
+		<a href="https://discussions.apple.com/article/HT208357?filter=qa">See all questions on this article<span class="icon icon-more" aria-hidden="true"></span></a>
+		<span class="pad10"></span>
+		
+		<a href="https://discussions.apple.com/content?filterID=contentstatus%5Bpublished%5D%7Eobjecttype%7Eobjecttype%5Bthread%5D">See all questions I have asked<span class="icon icon-more" aria-hidden="true"></span></a>
+		
+
+	</div> <!-- contentWrapper -->
+</div> <!-- ask-widget -->
+
+
+<!-- Offer Section -->
+<div class="border-div"></div>
+<div id="promo" style="display:none;"> Still need help?</div>          
+         
+<div style="clear:both;"></div>
+
+<input type="hidden"  id="cdsArticleObj" data-json='{"docId": "HT208357",
+"cdsLocale": "en_US",
+"imgSrc": "",
+"akamaiUrl": "https://km.support.apple.com",
+"strTitle": "About the security content of iOS 11.2.1",
+"strLocale": "en_US",
+"omniturePageName": "acs::kb::dl::ht208357::about the security content of ios 11.2.1",
+"metaUrl": "",
+"baseLink": "https://km.support.apple.com/kb/",
+"reportLink": "https://support.apple.com",
+"lcl": "en_US",
+"localeParam": "en-us",
+"viewLocale": "null",
+"domainName": "0",
+"archive": "false",
+"enableAffectedProductPortlet": "false",
+"configHeaderFooterLocale": "en_US",
+"strCategoryListRefKeys": "PP23,productcategory,PP524,PL275,PF26",
+"lastModifiedDate": "2017-12-13",
+"creationDate": "2017-12-09",
+"oldInquiraID": "",
+"articleNo": "HT208357",
+"strChannel": "HOWTO_ARTICLES",
+"isOmnitureSupported": "true",
+"referringPage": "unknown",
+"messageResourcesArticleTempEmail": "Email Download Link",
+"messageResourcesArticleTempDown": "Download",
+"ACStaticText": "{\"more\": \"…more\", \"less\": \"less\" }"
+}'>
+<script src="https://km.support.apple.com/static_resources/js/cds_article.js" type="text/javascript"></script>
+<div class="footer-wrapper">
+<footer id="ac-globalfooter" lang="en-US" class="js no-touch svg no-ie7 no-ie8 footer-global" data-analytics-region="global footer" role="contentinfo" aria-labelledby="ac-gf-label">
+<div class="ac-gf-content">
+<h2 class="ac-gf-label" id="ac-gf-label">Apple Footer</h2>
+<nav class="ac-gf-breadcrumbs" aria-label="Breadcrumbs" role="navigation">
+<a href="https://www.apple.com" class="home ac-gf-breadcrumbs-home">
+	<span class="ac-gf-breadcrumbs-home-icon" aria-hidden="true"></span>
+	<span class="ac-gf-breadcrumbs-home-label">Apple</span> 
+	<span class="ac-gf-breadcrumbs-home-chevron"></span>
+	<span class="ac-gf-breadcrumbs-home-mask"></span> 
+</a>
+<div class="ac-gf-breadcrumbs-path">
+			 <ol class="ac-gf-breadcrumbs-list" vocab="http://schema.org/" typeof="BreadcrumbList">
+				<li class="ac-gf-breadcrumbs-item" property="itemListElement" typeof="ListItem"><span property="name"><a href='https://support.apple.com'>Support</a></span><meta property="position" content="1"/></li>
+					<li class="ac-gf-breadcrumbs-item" property="itemListElement" typeof="ListItem"><span property="name">About the security content of iOS 11.2.1</span> <meta property="position" content="2" /></li>
+				</ol>
+		</div>
+	
+</nav>	
+	  <div class='ac-gf-footer' vocab='http://schema.org/' typeof='Organization'>
+      <div class="ac-gf-footer-shop" x-ms-format-detection="none"> More ways to shop: Visit an <a href ="https://www.apple.com/retail/">Apple Store</a>, <span class="nowrap">call 1-800-MY-APPLE, or <a 
+      href="https://locate.apple.com"
+      >find a reseller</a></span>. </div>
+      <div class="ac-gf-footer-legal">
+          <div class="ac-gf-footer-legal-copyright">
+              Copyright © <script type="text/javascript">var currentTime = new Date() 
+		var year = currentTime.getFullYear() 
+		document.write(year)</script> Apple Inc. All rights reserved.
+          </div>
+          <div class="ac-gf-footer-legal-links"> <a class="ac-gf-footer-legal-link" href ="https://www.apple.com/privacy/privacy-policy/">Privacy Policy</a> <a class="ac-gf-footer-legal-link" href ="https://www.apple.com/legal/">Terms of Use</a> <a class="ac-gf-footer-legal-link" href ="https://www.apple.com/shop/goto/help/sales_refunds/">Sales and Refunds</a>                    <a class="ac-gf-footer-legal-link" href ="https://www.apple.com/sitemap/">Site Map</a> <a class="ac-gf-footer-legal-link" href ="https://www.apple.com/contact/">Contact Apple</a> </div>
+      </div>
+      <meta content="Apple" property="name" />
+      <meta content="1-800-692-7753" property="telephone" />
+  </div></div>
+<div id="localeSelector" class="localeSelector">
+
+  <a  href="/HT208357/localeselector"><img class="more-icon" src="https://www.apple.com/support/assets/ac-globalfooter/1/en_US/images/ac-globalfooter/globalfooter/footer/country/flag_large_2x.png" alt="" width="16" height="16" data-hires="true" style=" vertical-align: middle; "><span style=" vertical-align: middle; margin-left: 10px; " aria-label="United States. Choose your country or region">United States (English)</span><span class="icon icon-more" aria-hidden="true"></span></a> 
+</div>
+</footer>
+</div>
+
+<script src="https://www.apple.com/ac/globalnav/3/en_US/scripts/ac-globalnav.built.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://www.apple.com/ac/globalfooter/3/en_US/scripts/ac-globalfooter.built.js" type="text/javascript" charset="utf-8"></script>
+</html>
